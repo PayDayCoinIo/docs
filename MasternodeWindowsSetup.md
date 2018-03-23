@@ -15,7 +15,7 @@ and save in masternode folder with name `start.cmd`
 ![Masternode Main](https://github.com/PayDayCoinIo/docs/blob/master/images/mn_main.png)
 1. In opened window select tab Console
 ![Masternode Debug](https://github.com/PayDayCoinIo/docs/blob/master/images/mn_debug.png)
-1. Type command `getaddressesbyaccount ""` and we see answer same as:
+1. Type command `getaddressesbyaccount ""` and we see answer same as
 ```
 [
     "MUs9swsjpSqp9K2UrVu5u8fDiaSSNtkUXt"
@@ -23,12 +23,12 @@ and save in masternode folder with name `start.cmd`
 ```
 1. Then open a main windows Wallet with coins and send 20000 in one transaction to address in answer abowe.
 1. Wait until 1 confirmation is accepted.
-1. After this, return to Masternode Wallet Debug console and type command `masternode genkey`, answer same as:
+1. After this, return to Masternode Wallet Debug console and type command `masternode genkey`, answer same as
 ```
 3orrHCsSefKX1bPdzWNw4DoGgxSTGjTfb3RMW5wJk6NCyYDa1cB
 ```
 Copy this key to some place, example new file in notepad.
-1. Then put command `masternode outputs` in Debug console, answer same as:
+1. Then put command `masternode outputs` in Debug console, answer same as
 ```
 {
     "e8f62a66e132e24f13dd5556e61b003ec25ef069170b218b9222d434d288ccbe" : "1"
