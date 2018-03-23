@@ -40,10 +40,16 @@ Copy this key to some place, example new file in notepad.
 11. Now in this Add node window, puts:
 
 > in 1 field: Masternode Alias, name without space
+
 > in 2 field: Address, public (external) IP address of your privider and port, only 7214
+
 > in 3 field: PrivKey, this key is copied in step 7 abowe.
+
 > in 4 field: Txhash, this hash copied in step 8 abowe.
+
 > in 5 field: output index, this value copied in step 8 abowe.
+
 > in 6 field, not required, this address to Masternode Donations.
+
 > in 7 field, not required, persent of donations.
 12. Now
