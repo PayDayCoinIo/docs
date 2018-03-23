@@ -52,4 +52,39 @@ Copy this key to some place, example new file in notepad.
 > in 6 field, not required, this address to Masternode Donations.
 
 > in 7 field, not required, persent of donations.
-12. Now
+12. Now click Ok and click Update, and make sure the Masternode is added in list.
+13. If done, close Masternode Wallet, and open file PayDay.conf in `C:\PayDay\MN1\data`
+14. Copy text below to .conf file and save it.
+```
+masternode=1
+masternodeaddr=<EXTERNALIP:PORT>
+masternodeprivkey=<PRIVKEY>
+```
+where
+
+> EXTERNALIP:PORT - your public IP and port 7214
+> PRIVKEY - PrivKey of Masternode, generated on step 7.
+Change text and save it.
+15. Run script `start.cmd` to start Masternode Wallet.
+16. Open Debug window - Console tab and put command `masternode status`, answer same as
+```
+{
+    "vin" : "CTxIn(COutPoint(e8f62a66e1, 1), scriptSig=)",
+    "service" : "118.49.149.128:7214",
+    "status" : 4,
+    "pubKeyMasternode" : "MM4hdxHHrP7y9dz8Ds26jyEXBTS73ypS1V",
+    "notCapableReason" : "Input must have least 7 confirmations - 1 confirmations"
+}
+```
+17. In param `notCapableReason` we see a reason, why masternode not running. Wait 7 confirmations and put command again.
+18. After confirmations is complete, we see your Masternode in tab Masternodes. And if put command in Debug window, we see:
+```
+{
+    "vin" : "CTxIn(COutPoint(e8f62a66e1, 1), scriptSig=)",
+    "service" : "118.49.149.128:7214",
+    "status" : 1,
+    "pubKeyMasternode" : "MM4hdxHHrP7y9dz8Ds26jyEXBTS73ypS1V",
+    "notCapableReason" : ""
+}
+```
+Param `status` is 1 - Masternode Running and Active.
