@@ -9,7 +9,7 @@
 start PayDayCoin-mn1.exe -datadir=./data/
 ```
 and save in masternode folder with name `start.cmd`
-## STEP 2: Prepare Masternode Wallet
+## STEP 2: Configure Masternode Wallet
 1. Run script `start.cmd` and wait until wallet is loaded and synchonize
 2. Select menu and click on `Help menu` - `Debug window`, see image.
 ![Masternode Main](https://github.com/PayDayCoinIo/docs/blob/master/images/mn_main.png)
