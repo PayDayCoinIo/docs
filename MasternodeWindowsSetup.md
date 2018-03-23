@@ -38,6 +38,7 @@ Copy this key to some place, example new file in notepad.
 10. Now close Debug window and change tab to Masternodes - My Master Nodes. Click button Create..., see image.
 ![Masternode AddNode](https://github.com/PayDayCoinIo/docs/blob/master/images/mn_addnode.png)
 11. Now in this Add node window, puts:
+
 > in 1 field: Masternode Alias, name without space
 > in 2 field: Address, public (external) IP address of your privider and port, only 7214
 > in 3 field: PrivKey, this key is copied in step 7 abowe.
