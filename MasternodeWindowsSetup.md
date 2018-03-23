@@ -63,7 +63,9 @@ masternodeprivkey=<PRIVKEY>
 where
 
 > EXTERNALIP:PORT - your public IP and port 7214
+
 > PRIVKEY - PrivKey of Masternode, generated on step 7.
+
 Change text and save it.
 15. Run script `start.cmd` to start Masternode Wallet.
 16. Open Debug window - Console tab and put command `masternode status`, answer same as
