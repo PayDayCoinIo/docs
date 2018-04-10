@@ -10,7 +10,7 @@
 1. download and build all pre-requisites   
 ``` ./build_all ```
 1. start autoconfiguration script   
-``` ./confiure_masternode ```
+``` ./configure_masternode ```
 1. After masternode is configured, your keys and masternode info saved in   
 ``` ~/masternode_info.txt ```   
 to some secure place. 
