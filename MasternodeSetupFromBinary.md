@@ -4,14 +4,12 @@
 1. goto home directory   
 ``` cd ``` 
 1. fetch sources   
-``` git clone https://github.com/PayDayCoinIo/PayDayCoin.git ```
+``` git clone https://github.com/PayDayCoinIo/Binaries.git ```
 1. go to fetched sources   
-``` cd PayDayCoin ```
-1. download and build all pre-requisites   
-``` ./build_all ```
-1. start autoconfiguration script   
-``` ./configure_masternode ```
-1. After masternode is configured, your keys and masternode info saved in   
+``` cd Binaries ```
+1. Type command to install and configure masternode
+``` ./linux_install masternode ```
+1. After node is configured, your keys and masternode info saved in   
 ``` ~/masternode_info.txt ```   
 to some secure place. 
 1. So now send *20 000* coins to Masternode address which has been saved in masternode_info.txt
